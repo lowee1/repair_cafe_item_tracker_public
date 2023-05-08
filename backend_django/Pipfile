@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+whitenoise = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+waitress = "*"
+hupper = "*"
+django-cors-headers = "*"
+django-rename-app = "*"
+dj-database-url = "*"
+psycopg = "*"
+psycopg2-binary = "*"
+psycopg-binary = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"
+
+[pipenv]
+allow_prereleases = true

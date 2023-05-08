@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repair Cafe - Item Tracker</title>
+
+    <script>
+      var request_uri = "{{ request.build_absolute_uri }}";
+    </script>
+    <script
+      src="{% static 'js/frontend/item_list.js' %}"
+      type="module"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="{% static 'style/frontend/index.css' %}"
+      type="text/css"
+    />
+    <base href="{% static '/' %}" />
+  </head>
+  <body>
+    <div id="item-list-container">
+      <table id="item-table">
+        <thead>
+        <tr>
+          <th>Item</th>
+          <th>Owner</th>
+          <th>Problem</th>
+          <th>Image</th>
+        </tr></thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+#item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#item-table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.item-row {
+  max-height: 100px;
+  height: 100px;
+}
+
+.item-row > td > img {
+  height: 100%
+}
+
+td {
+  padding: 10px;
+  border: solid 1px;
+  text-align: center;
+  max-width: 30vw;
+  max-height: 100px;
+  height: 100px;
+}

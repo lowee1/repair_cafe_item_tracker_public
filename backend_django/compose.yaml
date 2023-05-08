@@ -1,0 +1,5 @@
+services: 
+  web: 
+    build: repair_cafe_item_tracker 
+    ports: 
+      - '8083:8083'
